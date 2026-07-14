@@ -1,0 +1,20 @@
+window.SPOR_OKULU_LOGOS={sourceId:'1tze95HAdE5QzRbag--RnpzDQPlLBqHZlARJ8TuBp5Fw',items:[
+['Dev Ataşehir','https://www.devatasehir.com/wp-content/uploads/2025/01/devatasehir-voleybol.png'],
+['Dev Spor','https://drive.google.com/thumbnail?id=1AttSfC1uPLjcEKRHoaQerXNxSiejHxS5&sz=w500'],
+['İstanbul Dev','https://drive.google.com/thumbnail?id=1c7wZLDOYdeIrXRo7RCHqIul_5IbID-fb&sz=w500'],
+['Adres İstanbul','https://drive.google.com/thumbnail?id=18RdUI9at_5UPzYGr00rvr_DsDJ--ZV6U&sz=w500'],
+['Alfa','https://drive.google.com/thumbnail?id=1F6nxW3RE9EnOd-Lu6hzh2oPJmieKLo6a&sz=w500'],
+['Anadolu Smaç','https://drive.google.com/thumbnail?id=1ZaIgaJ6YpUTaixyQA07G6s_gRxnme08c&sz=w500'],
+['Dev Adım','https://drive.google.com/thumbnail?id=1Qg99c02hVNV7Rwjs73cPQIXJwDXJrBq5&sz=w500'],
+['Dinamo','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSUrqyZ22Sb12geBhz7U2wSmK6UivdKCyXEA&s'],
+['Ekare','https://drive.google.com/thumbnail?id=12YoH0fVT7xiORB95C_0CPwLcwPmOz_-Y&sz=w500'],
+['Elit Akademi','https://drive.google.com/thumbnail?id=1JLHgZIR-jWLrbPAxm9-JS0izebPnHFGV&sz=w500'],
+['Fabrika Voleybol','https://drive.google.com/thumbnail?id=1FfW4mXQsh7dvQSdIAvYpJfvWw6dLOC8O&sz=w500'],
+['Fenerbahçe','https://upload.wikimedia.org/wikipedia/tr/8/86/Fenerbah%C3%A7e_SK.png'],
+['İstanbul Alp','https://drive.google.com/thumbnail?id=1ru3LhmWazdJVzCzl_zS0eR-VFYOpkuNx&sz=w500'],
+['İstanbul Anka','https://drive.google.com/thumbnail?id=1m42KzK_Gq2C7ilLgD8xMj5kGABJIzbkX&sz=w500'],
+['İstanbul Ata','https://drive.google.com/thumbnail?id=10E7dLnnPbPH6Uja2-tuPSiyGMYlTH-s2&sz=w500'],
+['M.E Marmara Akademi','https://drive.google.com/thumbnail?id=1NNPaAerR8uMSAS1P8HPuOo7mJxAu1W5Q&sz=w500'],
+['Milan Atletik','https://drive.google.com/thumbnail?id=1eEwCcVw4wgFPfh4HGPcdzC2aOKNDWJKb&sz=w500'],
+['Turuncu Sk','https://drive.google.com/thumbnail?id=1qW5P0Wp4qH1ieZmjiDGKYZ9vcQejcNEp&sz=w500']
+]};

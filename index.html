@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071a14">
+  <meta name="description" content="Spor okulu sezon, takım, sporcu, fikstür ve katılım takip paneli">
+  <title>Dev Akademi Portal | Spor Okulu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css?v=20260714-38">
+  <link rel="stylesheet" href="assets/topic-images.css?v=20260713-12">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="assets/config.js?v=20260713-10" defer></script>
+  <script src="data/google-sheets-snapshot.js?v=20260713-2" defer></script>
+  <script src="data/google-sheets-details.js?v=20260713-2" defer></script>
+  <script src="data/roster-snapshot.js?v=20260713-2" defer></script>
+  <script src="data/multi-club-matches.js?v=20260713-13" defer></script>
+  <script src="data/multi-club-integration.js?v=20260713-15" defer></script>
+  <script src="data/logo-snapshot.js?v=20260713-3" defer></script>
+  <script src="data/education-snapshot.js?v=20260713-5" defer></script>
+  <script src="data/holiday-snapshot.js?v=20260713-7" defer></script>
+  <script src="data/announcement-snapshot.js?v=20260713-11" defer></script>
+  <script src="data/group-season-0.js?v=20260713-30" defer></script>
+  <script src="data/group-season-1.js?v=20260713-30" defer></script>
+  <script src="data/group-season-2.js?v=20260713-30" defer></script>
+  <script src="data/group-season-3.js?v=20260713-30" defer></script>
+  <script src="data/group-season-4.js?v=20260713-30" defer></script>
+  <script src="data/group-season-5.js?v=20260713-30" defer></script>
+  <script src="data/group-season-6.js?v=20260713-30" defer></script>
+  <script src="data/group-season-7.js?v=20260713-30" defer></script>
+  <script src="data/group-season-8.js?v=20260713-30" defer></script>
+  <script src="data/group-season-9.js?v=20260713-30" defer></script>
+  <script src="data/group-season-10.js?v=20260713-30" defer></script>
+  <script src="data/group-season-11.js?v=20260713-30" defer></script>
+  <script src="data/group-season-12.js?v=20260713-30" defer></script>
+  <script src="data/group-season-13.js?v=20260713-30" defer></script>
+  <script src="data/group-season-14.js?v=20260713-30" defer></script>
+  <script src="data/group-season-15.js?v=20260713-30" defer></script>
+  <script src="data/group-season-16.js?v=20260713-30" defer></script>
+  <script src="data/group-season-17.js?v=20260713-30" defer></script>
+  <script src="data/group-season-18.js?v=20260713-30" defer></script>
+  <script src="data/group-season-19.js?v=20260713-30" defer></script>
+  <script src="data/group-season-20.js?v=20260713-30" defer></script>
+  <script src="data/group-season-21.js?v=20260713-30" defer></script>
+  <script src="data/group-season-22.js?v=20260713-30" defer></script>
+  <script src="data/group-season-23.js?v=20260713-30" defer></script>
+  <script src="data/group-season-24.js?v=20260713-30" defer></script>
+  <script src="data/group-season-25.js?v=20260713-30" defer></script>
+  <script src="data/group-season-26.js?v=20260713-30" defer></script>
+  <script src="data/group-season-27.js?v=20260713-30" defer></script>
+  <script src="data/group-season-28.js?v=20260713-30" defer></script>
+  <script src="data/group-season-29.js?v=20260713-30" defer></script>
+  <script src="data/group-season-30.js?v=20260713-30" defer></script>
+  <script src="data/group-season-31.js?v=20260713-30" defer></script>
+  <script src="data/group-season-32.js?v=20260713-30" defer></script>
+  <script src="data/group-season-33.js?v=20260713-30" defer></script>
+  <script src="data/group-season-supplement-0.js?v=20260713-32" defer></script>
+  <script src="data/group-season-supplement-1.js?v=20260713-32" defer></script>
+  <script src="data/group-season-aliases.js?v=20260713-31" defer></script>
+  <script src="data/education-videos.js?v=20260714-38" defer></script>
+  <script src="assets/app.js?v=20260714-38" defer></script>
+  <script src="assets/group-season-ui.js?v=20260714-35" defer></script>
+  <script src="assets/topic-images.js?v=20260713-12" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#/" aria-label="Dev Akademi Portal ana sayfa">
+        <span class="brand-mark"><img src="https://www.devatasehir.com/wp-content/uploads/2025/01/devatasehir-voleybol.png" alt="Dev Ataşehir logosu"></span>
+        <span><b id="brandName">Dev Akademi Portal</b><small>SPOR OKULU</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Ana menü">
+        <a href="#/" data-route="home"><i data-lucide="layout-dashboard"></i><span>Genel Bakış</span></a>
+        <a href="#/takimlar" data-route="teams"><i data-lucide="shield"></i><span>Takımlar</span></a>
+        <a href="#/takvim" data-route="calendar"><i data-lucide="calendar-days"></i><span>Maç Takvimi</span></a>
+        <a href="#/duyurular" data-route="announcements"><i data-lucide="megaphone"></i><span>Duyurular</span></a>
+        <a href="#/egitim" data-route="education"><i data-lucide="graduation-cap"></i><span>Eğitim</span></a>
+        <a href="#/egitim-videolari" data-route="education-videos"><i data-lucide="circle-play"></i><span>Eğitim Videoları</span></a>
+        <a href="#/egitim/sezon-takvimi" data-route="education-calendar"><i data-lucide="calendar-range"></i><span>Sezon Takvimi</span></a>
+      </nav>
+      <div class="season-card">
+        <span class="eyebrow">AKTİF SEZON</span>
+        <strong id="seasonLabel">2025 / 26</strong>
+        <div class="progress"><span style="width: 38%"></span></div>
+        <small>Sezon verileri otomatik olarak güncellenir.</small>
+      </div>
+      <div class="sidebar-footer"><span class="sync-dot"></span><span><b>Veri bağlantısı</b><small id="syncLabel">Veriler hazır</small></span></div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-button menu-button" id="menuButton" aria-label="Menüyü aç"><i data-lucide="menu"></i></button>
+        <div><p class="crumb" id="crumb">SEZON YÖNETİMİ / GENEL BAKIŞ</p><h1 id="pageTitle">Günaydın, Yönetici</h1></div>
+        <div class="top-actions">
+          <button class="icon-button" id="refreshButton" title="Verileri yenile"><i data-lucide="refresh-cw"></i></button>
+          <a class="profile-chip" href="#/takimlar"><span>FB</span><div><b>Kulüp Paneli</b><small>Sezon takibi</small></div><i data-lucide="chevron-right"></i></a>
+        </div>
+      </header>
+      <section class="content" id="app" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite"></div>
+  <dialog id="formDialog" class="modal"><div id="dialogContent"></div></dialog>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+</body>
+</html>
