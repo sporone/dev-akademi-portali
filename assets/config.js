@@ -1,6 +1,7 @@
 window.SPOR_OKULU_CONFIG = {
   API_URL: '', // Apps Script web uygulaması URL'sini buraya yazın.
   ANNOUNCEMENT_API_URL: 'https://script.google.com/macros/s/AKfycbxLz7SjYOvyCNSqLZARoodS4O3skPGaq8FgT4UF3ihyn8ynLowkqXLzjrU85-KH0lz3/exec',
+  PRODUCT_API_URL: 'https://script.google.com/macros/s/AKfycbxLz7SjYOvyCNSqLZARoodS4O3skPGaq8FgT4UF3ihyn8ynLowkqXLzjrU85-KH0lz3/exec',
   LEAGUE_SOURCE_ID: '1-LJHnabJcec-0v2UnHCMhZgu3oFx67QOfhkCLntbrsI',
   CLUB_FILTER: 'Dev Ataşehir',
   CLUB_NAME: 'Dev Akademi Portal',
